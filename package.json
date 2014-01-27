@@ -1,0 +1,29 @@
+{
+  "name": "gulp-themer",
+  "description": "Generate JSON hashmap of css selectors for theming.",
+  "version": "0.0.1",
+  "homepage": "http://github.com/speedmanly/gulp-themer",
+  "repository": "git://github.com/speedmanly/gulp-themer.git",
+  "author": "speedmanly",
+  "bugs": {
+    "url": "https://github.com/speedmanly/gulp-themer/issues"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "gulpplugin", "gulp", "hash", "theme", "assets", "theming"
+  ],
+  "dependencies": {
+    "through": "~2.3.4",
+    "gulp-util": "~2.2.5"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "license": "MIT"
+}
