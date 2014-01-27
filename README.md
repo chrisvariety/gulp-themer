@@ -26,7 +26,14 @@ h1, h2, h3 {
 }
 ```
 
-Then, running gulp-themer on the CSS file, you should get a json file full of selectors.
+Then, running gulp-themer on the CSS file, you should get a json file full of selectors:
+
+```json
+{
+  "font": "body",
+  "alt-font": "h1, h2, h3"
+}
+```
 
 You can then use these selectors to apply your end user's custom colors.
 
