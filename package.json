@@ -1,7 +1,7 @@
 {
   "name": "gulp-themer",
   "description": "Generate JSON hashmap of css selectors for theming.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "http://github.com/speedmanly/gulp-themer",
   "repository": "git://github.com/speedmanly/gulp-themer.git",
   "author": "speedmanly",

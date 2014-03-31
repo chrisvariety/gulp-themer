@@ -21,7 +21,7 @@ module.exports = function(selectors) {
     selectors.forEach(function(selector) {
       // TODO: use cssp ( https://npmjs.org/package/cssp ) instead of this ghetto regexp?
       // e.g. https://github.com/substack/css-prefix
-      var match = contents.match(new RegExp('.' + selector + ', (.+?) {'));
+      var match = contents.match(new RegExp('\\.' + selector + ', (.+?) {'));
       if (match && match[1]) {
         selectorMap[selector] = match[1].trim();
       }
